@@ -12,6 +12,7 @@
   <title>Python Triângulo</title>
 
   <!-- Bootstrap Core CSS -->
+
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom CSS -->
@@ -20,6 +21,8 @@
   <link href="css/freelancer.css" rel="stylesheet">
   <link href="css/nav.css" rel="stylesheet">
   <link href="css/aligin.css" rel="stylesheet">
+  <link href="css/carousel.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -52,69 +55,17 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <!-- <li>
-                        <a href="about.html">About</a>
+
+                    <li class="page-scroll">
+                        <a href="#events">Eventos</a>
                     </li>
-                    <li>
-                        <a href="services.html">Services</a>
+                    <li class="page-scroll">
+                        <a href="#projects">Projetos</a>
                     </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
+                    <li class="page-scroll">
+                        <a href="#about">Sobre</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
-                            </li>
-                        </ul>
-                    </li> -->
-          <!-- <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html">Blog Post</a>
-                            </li>
-                        </ul>
-                    </li> -->
-          <!-- <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
-                    </li> -->
+
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -128,7 +79,7 @@
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
+
     </ol>
 
     <!-- Wrapper for slides -->
@@ -144,12 +95,7 @@
           <h2>Conheça e colabore com o manifesto da Comunidade</h2>
         </div>
       </div>
-      <div class="item">
-        <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-        <div class="carousel-caption">
-          <h2>Caption 3</h2>
-        </div>
-      </div>
+
     </div>
 
     <!-- Controls -->
@@ -204,7 +150,7 @@
           <div class="col-md-4">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h4><i class="fa fa-fw fa-compass"></i>Quero Patrocinar</h4>
+                <h4>Quero Patrocinar</h4>
               </div>
               <div class="panel-body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
@@ -262,8 +208,8 @@
       </div>
     </section>
     <!-- /.row -->
-    <!-- Marketing Icons Section -->
-    <section class="row ">
+    <!-- Events Section -->
+    <section class="row " id='events'>
       <div class='container'>
         <div class='row'>
           <div class="col-lg-12">
@@ -312,8 +258,8 @@
     </section>
     <!-- /.row -->
 
-    <!-- Features Section -->
-    <section class="row">
+    <!-- Projects Section -->
+    <section class="row" id='projects'>
       <div class='container'>
         <div class='row'>
           <div class="col-lg-12">
@@ -350,7 +296,7 @@
 
 
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="text-center" id='about'>
           <div class="footer-above">
               <div class="container">
                   <div class="row">
@@ -386,7 +332,7 @@
               <div class="container">
                   <div class="row">
                       <div class="col-lg-12">
-                          Copyright © Your Website 2016
+....
                       </div>
                   </div>
               </div>
@@ -398,9 +344,11 @@
 
   <!-- jQuery -->
   <script src="js/jquery.js"></script>
-
+  <!-- Plugin JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/easing.js"></script>
 
   <!-- Script to Activate the Carousel -->
   <script>
