@@ -3,4 +3,6 @@
 }
 .carousel-caption {
     text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,0.25);
+    padding:0px;
 }
